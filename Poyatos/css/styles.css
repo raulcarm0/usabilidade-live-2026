@@ -1,0 +1,36 @@
+body{
+  padding-top: 5px;
+  padding: 25px;
+}
+/* ao usar um ponto, a estilização é feita em uma classe */
+.title {
+ color: #5C6AC4;
+}
+/* posso fazer a estilização com # para id */
+#exemplo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color :darkmagenta;
+    border: 2px solid cadetblue;
+}
+/* eu poderia usar div.container para alterar somente a div, mas utilizei a class universal do meu html apenas com . */
+.container{
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+/* tags podem ser usadas com nome somente */
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+}
+
+input#caixa:focus{
+    outline: none; 
+    background-color: lightblue;
+    border-color: #5C6AC4;
+}
