@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 280px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #1e1e24;
+    color: #fff;
+    border-radius: 12px;
+    border: 5px solid #fcc;
+}
+
+.card-desc {
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px dashed #00c;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.card-banner {
+    position: relative;
+    top: -180px;
+    left: 50px;
+    background-color: #ef233c;
+    color: white;
+    padding: 4px 20px;
+    z-index: -1;
+}
+
+.miranha {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}
