@@ -1,0 +1,12 @@
+button {
+    border-radius: 5px;
+    background-color: cadetblue;
+    margin: 15px;
+    color: white;
+}
+ 
+div.card{
+    background: #eee;
+    padding: 15px;
+    margin-top: 10px;
+}
